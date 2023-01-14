@@ -1,0 +1,24 @@
+.header {
+    font-weight: normal !important;
+}
+
+.ui.form .disabled.field, .ui.form .disabled.fields .field, .ui.form .field :disabled {
+    opacity: 1 !important;
+}
+
+.ui.disabled.input, .ui.input:not(.disabled) input[disabled] {
+    opacity: 1 !important;
+}
+
+.ui.card {
+    width: 100% !important;
+}
+
+.image.label img {
+    -webkit-filter: invert(1) !important;
+    filter: invert(1) !important;
+}
+
+img.ui.mini.right.floated.image {
+    opacity: 0.75;
+}
